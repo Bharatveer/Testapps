@@ -19,6 +19,7 @@ public class HelloWorldServlet extends HttpServlet {
 		
 		PrintWriter out = resp.getWriter();
 		out.print("Maven Test successfull for new apps");
+		out.print("Maven Test successfull");
 		out.flush();
 		out.close();
 	}
